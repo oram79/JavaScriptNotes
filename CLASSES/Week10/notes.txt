@@ -21,3 +21,12 @@ REACT is based on HTML, CSS and JavaScript!
 WHY REACT: UI becomes difficult to manage with Vanila JavaScript
 
 
+First Application:
+
+node_modules is the biggest folder in our Application. so much so, that we exclude
+it when pushing the contents to the github....
+
+NEVER SEND YOUR NODE_MODULES FOLDER WHILE SENDING YOUR PROJECTS TO SOMEONE....
+
+node_modules consists of all libraries/files needed to run
+react Application.... NEVER SEND....
