@@ -1,0 +1,23 @@
+aysnc Functions : during our react disccusions!
+
+REACT:
+    A  Front-end JS library to creat intutitive, responsive UIs.
+    HTML, CSS , JavScript - front end technologies! (already disccused)
+
+    React actually works on a concept of "compontents", the components remian the
+    same and thier data keep on changing....
+
+    SPA: Single Page Application! (index.html is the only page that is loaded
+    from server... rest all data is update inside the components)
+
+MEAN/MERN:
+    MongoDB(Persistance storage), ExpressJS (Used to setup the servers), AnglerJS
+    (UI library/frameowork that can be used to make UIs), NodeJS (runtime 
+    enviroment) (MEAN)
+    MongoDB, ExpressJS, ReactJS, NodeJS (MERN)
+
+REACT is based on HTML, CSS and JavaScript!
+
+WHY REACT: UI becomes difficult to manage with Vanila JavaScript
+
+
