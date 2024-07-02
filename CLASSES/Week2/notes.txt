@@ -1,0 +1,119 @@
+Datatypes in other languages:
+
+int x; // only store integers in this x...
+char y; //only character can be stored in this...
+
+var x=null;
+let 
+const 
+
+Data Types:
+
+1. Number: floating point numbers, integers , floats...
+2. String: a sequence of Unicode characters... " ", ' '
+3. Boolean: true or false 
+4. object: Functions, Arrays, Date and many more...
+5. null: a value that means "this is literally nothing" vs. undefined
+6. undefined: a special value that indicates a vlaue has never been defined...
+
+let s1= "some text";  String  some text
+let s2= 'some text';  String  some text
+let s3 = '134';  String "134"
+let s4 = '134'+4; String  "1344" (concatenation)
+let n1= 134;   Number 134
+let n2 = 134.22   Number 134.22
+let b1 = true  Boolean true
+let b2 = false Boolean false
+let b3 = !b2; Boolean  true 
+let c ;   undefined   undefined
+let d=null;  object   null
+
+
+Operators:
+ +, - , * , /, % modulo Operators
+
+ ++, -- Increment /decrement operaters
+ Post increment means make increment after using previous values
+ Pre increment means make increment and then use it...
+
+ = Assignment operator... let x=10;
+
+ == equality operator
+
+ === strict equality? coercion: automatic conversion of data type from one to other..
+
+Binary Operators: that require two operans like +, - , * , / , %
+Unary Operators: ++, --, ! 
+Ternary Operator: (?:) short form of if else! 
+condition ? value_if_true; value_if_false;
+
+
+Loops:
+
+for loop:
+
+for(var i=0;i<1000;i++){
+    console.log("I will never do it again");
+}
+
+
+for(initialization; condition; increment/decrement; (i++, ++i) ){
+
+    
+}
+
+
+Functions in JavaScript:
+    " A function in a subprogram, or a smalller portion of codde that can be called(i.
+    e;invoked by another part of your program, another function, or by the
+    enviroment in response to some user of device action(e.g; clikcing a button
+    a newtork request etc.))
+
+    Syntax of FUnctions:
+        Functions can take values(i.e., Arguments) and may return a value.
+            and NOT A FUNCTION....
+            add( )
+
+            juicer(apples)
+    Types of Fucntions in JavScript:
+    i) User-defined Functions
+    ii) Pre-defined Functions
+
+    I) User-Defined Functions: Functions defined by us (as users)
+        i) Function Decleration
+        ii) Function Expressions 
+        iii) Arrow Functions
+
+        Functions Declerations:
+
+        function noop(){
+
+        }
+
+        function sqaure(n){
+            return n*n;
+        }
+
+        function add(a,b){
+            return a+b
+        }
+
+
+        Function Expressions: [ONLY IN JS]
+        
+        let noop = fucntion(){ }
+
+        let sqaure=functon(n){return n*n}
+
+        let add=function(a,b){ return a+b }
+
+        noop();
+        sqaure(5);
+        add(3,5);
+
+        Arrows Fucntions:
+
+        let noop = ()=>{ };
+        let square = 
+    
+

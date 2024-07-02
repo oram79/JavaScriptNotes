@@ -1,0 +1,60 @@
+/// May 14th, 2024)
+
+Rest Operator:
+...
+
+dealing with opitional and missing parameters:
+    We use the missing value as truthy or falsy and take decision on them...
+
+|| OR Operator: Etiher side should be true to get a true output
+&& AND Operator: Both sides should be true to get a true a trut output
+
+1 AND 1 make 1 // True
+1 AND 0 make 0 // False
+
+1 OR 0 make 1 
+0 OR 1 make 1
+0 OR 0 make 0
+
+Built-in/global Functions:
+
+parseInt()
+parseFloat()
+isNaN()
+
+
+
+//// MAY 15TH,2024)
+
+
+Object Oriented JavaScript:
+    String is one object data type in JavaScript
+
+
+Arrays:
+
+let arr=[1,2,4];
+let arr2=new Array(5,6,7);
+
+unlinke most other[C family, exception: C#[Allowing mix type]] languages, JS array can contain any daytype including mxi types:
+
+let list=[0,"1","name",true];
+Array properties and methods:
+
+arr.length - length of the array
+arr.push() to insert one element at the end of an Array
+arr.pop() to delete one value from thr endf of an array....
+
+arr.unshift() Inserts at the beginning
+arr.shift() removed from the beginning
+
+arr.join("x"); returns a string created by joining(concatenating) all elements in the array with the given delimiter - split() is opposite of join
+
+Methods for iterating accross the elements in an array:
+    for loop:
+    forEach Method:
+    map function: creates and return a new array by applying the given function on each value of the collection....
+
+diffrence forEach and map functions????
+diffrence map and filter?? map maps with ea h value and returns a boolean (if
+there is a condition in the fucntion whileas filter will filter out all themvalues that do)

@@ -1,0 +1,107 @@
+///// May 21st, 2024 /////
+
+// Regular Expressions:??? //
+    
+    a ruglar expression(aka regex) is a special string that describes a pattern
+    to be used for matching or searching within other strings.
+
+    colour 
+
+    color 
+
+    regualr exprssions: colou?r - an RE that accepts both color and colour
+
+
+// In JavaScript: the ways to write RE in Javascript //
+
+    let re = /colu?r/ ;
+    let re2 = new RegExpt("Colu?r");
+
+    let re = /colou?r/gi //ignore case
+    let re2 = new RegExp("colou?r","gi")
+
+// Special Characters In Res: //
+    
+    means any character....
+    [] represents the set of allowable Characters
+    [^ ] a cap inside means the OPPOSITE of the set...
+    /d represents any digit...
+    a-zA-Z0-9_  are collectively called \w in REs:
+ \D means anything BUT a digit - the opposite of \D
+ \w is a-zA-Z0-9_  AND \W is the opposite of it - anything but a word 
+ \s means space
+ *  0 or more occurances
+ + means 1 or more occurances
+
+{3} means exact number - 3 letters should
+{2,4} between 2 and 4
+{3,} 3 and above ...
+
+
+Regular Expression for Phone number:
+
+/\(?\d{3}\)?[\s-]*\d{3}[\s-]*\d{4}\
+
+.test() takes a string and tests it with the given regular expression
+.match() takes a regular expression and matches with the given string..
+
+catpure groups: when we put rounded brackets around different areas in 
+RE they become the capture groups in matching...
+
+
+
+
+///// May 22nd, 2024 /////
+
+"This is a             string that has       spaces".replace(/\s+/g," ");
+'This is a string that has spaces'
+"1,      2, 3,      4, 5'.split(",");
+VM1068:1 Uncaught SyntaxError: Invalid or unexpected token
+"1,      2, 3,      4, 5".split(",");
+(5) ['1', '      2', ' 3', '      4', ' 5']
+"1,      2, 3,      4, 5".split(/,\s*/g);
+(5) ['1', '2', '3', '4', '5']
+"a,        b       ,         c, d".split(/,/g);
+(4) ['a', '        b       ', '         c', ' d']
+"a,        b       ,         c, d".split(/,\s*/g);
+(4) ['a', 'b       ', 'c', 'd']
+"a,        b       ,         c, d".split(/\s*,\s*/g);
+(4) ['a', 'b', 'c', 'd']
+
+
+//   let data = [];
+  //   by using for loop
+  //   for (let i = 0; i < rows.length; i++) {
+  //     let row = rows[i];
+  //     let fields = rowToFields(row);
+  //     // add this set of fields to our data
+  //     data.push(fields);
+  //   }
+  //   by using for of loop
+  //   for (let row of rows) {
+  //     let fields = rowToFields(row);
+  //     data.push(fields);
+  //   }
+
+///// May 28th,2024
+
+let phoneNumber = fields[2];
+  let matches = phoneNumber.match(/(\(?\d{3}\)?)[\s-]*(\d{3})[\s-]*(\d{4})/);
+
+  if (matches) {
+    fields[2] = `(${matches[1]})-${matches[2]}-${matches[3]}`;
+  }
+
+
+
+   let height = fields[3];
+  if (height.endsWith("inches")) {
+    return height;
+  }
+
+  let cm = parseFloat(height); //it will extract only number in cm
+  let inches = cm * 0.39; //convert the cm value into inches..
+
+  fields[3] = `${inches} inches`;
+
+
