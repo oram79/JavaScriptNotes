@@ -30,3 +30,42 @@ NEVER SEND YOUR NODE_MODULES FOLDER WHILE SENDING YOUR PROJECTS TO SOMEONE....
 
 node_modules consists of all libraries/files needed to run
 react Application.... NEVER SEND....
+
+July 3,2024:
+
+package.json "npm install" actually looks package.json and 
+installs or creates the folder node_modules for all required
+files that are mentioned in package.json
+
+ALWAYS SEND YOUR PACKAGE.JSON TO ME WHILE SENDING YOUR
+PROJETCS,, NEVER SEND NODE_MODULES...
+
+in public folder we have "index.html", this is a Single page
+that runs when react app runs....
+
+in src folder we have "index.html" that somehow accesses the
+index.html's div with root id and renders there "<App/>"
+component.
+
+App component is the main component that runs when we run our react
+application.... 
+
+All component 'sytax is like functions ... the diffrence is that the component
+actually returns "JSX"
+
+function App(){
+
+    return "JSX"
+}
+
+JSX ... is a combination of HTML, CSS and JS.
+{ } JavaScript expression box where we write any javascript!
+
+Every component returns "JSX" that is boiled down to HTML
+when it goes to index.html
+
+rafce
+rfce
+
+
+
