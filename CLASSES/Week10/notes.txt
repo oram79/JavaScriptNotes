@@ -1,3 +1,6 @@
+
+//// July 2,2024 ////
+
 Async/Await Functions : During our react discussions!
 
 
@@ -28,7 +31,7 @@ node_modules consists of all libraries/files needed to run react application....
 Francis Question: When  you will send me folder without node_modules, i will run "npm install" command inside your folder and node_moduels will automatcially come in my folder...
 
 
-July 3,2024:
+//// July 3,2024: ////
 
 package.json: "npm install" actually looks package.json and installs or creates the folder node_modules for all required files that are mentioned in package.json..
 
@@ -99,5 +102,18 @@ function Header({ title, text }) {
 
 export default Header;
 
+
+//// July 4,2024 ////
+
+
+rafce --- 
+
+rfce ---
+
+New project: tasktracker!
+
+components/Header.jsx
+
+ {/* <button className="btn">Add</button> */}
 
 
