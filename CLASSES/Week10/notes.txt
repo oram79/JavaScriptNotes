@@ -116,4 +116,42 @@ components/Header.jsx
 
  {/* <button className="btn">Add</button> */}
 
+ July 8,2024: WEEK11....
+
+ Events in React! we can pass any function as a prop to the other component like
+ normal props... and the passed function can be called/used with the Events in the receiving
+ component.
+
+ State of a component: the varibles and their values at a particular time for a
+component
+
+Types of components:
+  1. Function components (Hooks: are "state in function components... we use Hooks
+  in function component to maintain the values/state of this component)
+  2. Class components (state maintains the state/values for a class component)
+
+  Hooks:
+    1. useState() Hook:
+      useState() is used to maintain the state variables in fucntion components.
+      thier syntaxis like following:
+
+      useState(0);
+      returns two things, ONE the name of a variable, and a fucntion to handle that
+      variable.
+
+      const[num, setNum]=useState(0);
+      const[x,setX] = useState(0);
+      const[age,setAge] = useState(20);
+
+      num = 0;
+
+      num = num+! CANNOT DO THIS
+
+      setNum(num+1) -> num = 1..
+
+    a state variable changes and updayes at all locations automatcially, while as normal
+    variables do not update automatcially...
+
+    Objects values changing:
+
 
