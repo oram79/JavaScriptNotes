@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./components/Header";
-import Tasks from "./components/Tasks";
-import Test2 from "./components/Test2";
+import Header from "./componets/Header";
+import Tasks from "./componets/Tasks";
+import Test2 from "./componets/Test2";
 
 function App() {
   return (
