@@ -154,4 +154,31 @@ Types of components:
 
     Objects values changing:
 
+    ... spread operator takes the values and use them..
+
+  (previousState) => return {
+    ..previouState,name:"Bob Smith"
+  }
+
+
+     <button
+        onClick={() => {
+          setNumbers([50, 60, 70]);
+        }}
+      >
+        Change Array
+      </button>
+
+
+
+To maintain state globally we usually define our state variables in App component,
+so unless we use something called "Redux", we need to define most state variables in the App component rather than the given component.Because from here "App" we can transfer them to any other components....
+
+Events:
+
+1. Delete event!
+  filter() .... go and filter...
+
+2. Reminder event!
+
 
