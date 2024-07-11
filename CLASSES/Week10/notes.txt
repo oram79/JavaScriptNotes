@@ -183,4 +183,8 @@ Events:
 
 3. Add task form:
 
+4. to show and hide the task form...
+
+5. to change the text and color of the button
+
 
