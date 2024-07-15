@@ -187,4 +187,12 @@ Events:
 
 5. to change the text and color of the button
 
+July 15,2024
 
+JSON Server: NPM (Node Package Manager)
+  1. Development server :3000(one that we are working on)
+  2. Productions server :8000(one that is published as a product)
+  3. to make a production sever... we need build of this application
+ A. npm run build (it will crreate a build folder, that we can server/publish on any server)
+ B. npm i -g server
+ C. serve -s build -p 8000
