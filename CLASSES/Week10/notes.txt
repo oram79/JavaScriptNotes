@@ -196,3 +196,6 @@ JSON Server: NPM (Node Package Manager)
  A. npm run build (it will crreate a build folder, that we can server/publish on any server)
  B. npm i -g server
  C. serve -s build -p 8000
+ d. npm install json-server
+ e. "server": "json-server --watch db.json --port 5000"
+ package.Json under scripts
