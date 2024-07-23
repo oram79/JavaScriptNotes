@@ -37,3 +37,14 @@ UNIT TESTS
 - tessting of indiviual block of an application. each unit is tested in
 isolation, independent of other units. run in a short amount of time and mak
 it easy to pinpoint failues, easdier to write and maintain
+
+integration tests
+- testing of a Component
+
+END TO END TESTS
+- testing the entire application flow and ensure it works as
+designed from start to finish it involves a real UI, a real backend
+database, real services. cost of implication is involved , because we might 
+intetact with real APIS (Paid)
+
+
