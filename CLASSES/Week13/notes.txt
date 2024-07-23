@@ -3,3 +3,37 @@
 Testing React Components:
 
 Testing:
+    - build software that works
+    - we write tests that check that
+    - to check whether our software works as expected
+
+Manual vs automated testing:
+
+1. Manual testing 
+- opens the website, interacts with in all possible way
+to ensure everything is working
+
+2. automated testing
+- programs that automate the task of testing the software
+- aditional effort is required, but once done it can be used
+for mulitple softwares
+
+Jest (JavaScript testing framework) & RTL (React Testing Library)
+
+JEST:
+- is a test runnner that runs the test, determines where 
+tests are passed or failed and reports back to the user
+
+RTL: 
+- testing utility provides the "virtual DOM" for testing react Components
+- virtual DOM can be used to interact and verify the behaviour of a react Component
+
+TYPES OF TESTS:
+1. unit tests
+2. integration tests
+3. end to end tests (e2e)
+
+UNIT TESTS 
+- tessting of indiviual block of an application. each unit is tested in
+isolation, independent of other units. run in a short amount of time and mak
+it easy to pinpoint failues, easdier to write and maintain
